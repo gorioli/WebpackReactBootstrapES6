@@ -24,6 +24,9 @@ import ContentBox from  './components/ContentBox.jsx';
     });
     console.log(fives);
 
+    var {b, a } = { x: 1, y: 2, a: 3, b: 4 };
+    console.log(a, b);
+
     ReactDOM.render(
         <ContentBox data={data}/>,
         document.getElementById('content')
