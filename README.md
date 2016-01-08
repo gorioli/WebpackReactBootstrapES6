@@ -29,7 +29,8 @@ The project is ready for releasing to production with minified version of bundle
 ## Detailed Commands Explanation:
 ### Dependencies installation 
         npm install
-This will install libraries defined in package.json into the node_modules folder
+This will install libraries defined in package.json into the node_modules folder.
+For instructions of how to install npm for Win or Mac, see: https://github.com/gorioli/TestWebpack (steps 1-3).
         
 ### Webpack
 WebPack combines multiple js files into one - bundle.js. 
