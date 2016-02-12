@@ -27,6 +27,15 @@ The project is ready for releasing to production with minified version of bundle
 
 
 ## Detailed Commands Explanation:
+All all command line scripts are definded in package.json. 
+I recommend to look at them because it would be easier to understand what are they doing.
+For example, the script:
+    
+        "build_all": "npm run build && npm run build_dialogs",
+runs another 2 scripts:
+        
+        npm run clean && npm run build:dir
+
 ### Dependencies installation 
         npm install
 This will install libraries defined in package.json into the node_modules folder.
